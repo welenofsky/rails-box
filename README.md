@@ -33,10 +33,10 @@ It uses DHCP to get an IP from your local network. To view the IP you can SSH in
 ```
 vagrant ssh
 ```
-Then use ifconfig to see what IP you are using for the ETH interface ( note you may have a few ETH interfaces ). Once you get that ip you can access the site by going to that IP in your web browser. I also recommend setting a domain name for this box like vlamp.local.com in your /etc/hosts file
+Then use ifconfig to see what IP you are using for the ETH interface ( note you may have a few ETH interfaces ). Once you get that ip you can access the site by going to that IP in your web browser. I also recommend setting a domain name for this box like vbox.local.com in your /etc/hosts file
 
 ### How to see mail sent from this server?
-This server uses mailcatcher. So just go to the IP of the box in your web browser and append the port :1080 to it. For example. vlamp.local.com:1080
+This server uses mailcatcher. So just go to the IP of the box in your web browser and append the port :1080 to it. For example. vbox.local.com:1080
 
 
 ### Is SSL Setup?

@@ -1,6 +1,0 @@
----
-- name: Install Composer if not already installed
-  script: ../templates/composer-install.sh
-
-- name: Globally install composer
-  command: cp /home/{{ username }}/composer.phar /usr/local/bin/composer
